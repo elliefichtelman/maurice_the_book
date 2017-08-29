@@ -1,0 +1,75 @@
+/* GLOBAL STYLES */
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+/* HERO STYLES */
+.hero {
+  background-color: #e5f442;
+  display: block;
+  padding: 50px 0;
+  text-align: center;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 8px;
+}
+.hero h2 {
+  font-size: 2rem;
+  font-style: italic;
+  margin-bottom: 8px;
+}
+.hero h3 {
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
+.hero img {
+  border-radius: 5px;
+  height: 250px;
+  margin: 20px 0;
+  width: 350px;
+}
+.hero p {
+  font-size: 1.25rem;
+}
+
+/* SAMPLE STYLES */
+.sample {
+  align-items: center;
+  background-color: #4198f4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+.sample img {
+  border-radius: 5px;
+  height: 250px;
+  width: 350px;
+}
+.summary {
+  text-align: center;
+}
+
+/* REVIEWS STYLES */
+.reviews {
+  background-color: #d61730;
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+.reviews h1 {
+  font-size: 2rem;
+}
+.reviews h3 {
+  font-size: 1.5rem;
+}
+.reviews p {
+  font-style: italic;
+}
+
+/* AUTHOR STYLES */
+.author img {
+  border-radius: 50%;
+}

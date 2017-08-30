@@ -3,6 +3,9 @@ html {
   font-family: sans-serif;
   font-size: 16px;
 }
+ol, ul {
+  list-style: none;
+}
 
 /* HERO STYLES */
 .hero {
@@ -41,16 +44,21 @@ html {
   background-color: #4198f4;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   padding: 20px;
+}
+.sample div {
+  flex: 1;
+  text-align: center;
 }
 .sample img {
   border-radius: 5px;
   height: 250px;
   width: 350px;
 }
-.summary {
-  text-align: center;
+.sample ul {
+  list-style: disc;
+  list-style-position: inside;
+  margin-top: 20px;
 }
 
 /* REVIEWS STYLES */
@@ -59,6 +67,10 @@ html {
   display: block;
   padding: 20px;
   text-align: center;
+}
+.reviews article {
+  margin-bottom: 20px;
+  text-align: left;
 }
 .reviews h1 {
   font-size: 2rem;
@@ -73,9 +85,22 @@ html {
 /* AUTHOR STYLES */
 .author {
   background-color: #39ba28;
+  display: flex;
+  flex-direction: row;
+  padding: 60px;
+}
+.author h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
 }
 .author img {
   border-radius: 50%;
+  margin-right: 20px;
+}
+.author p {
+  margin-bottom: 10px;
+  text-align: left;
 }
 
 /* BUY NOW STYLES */
@@ -88,5 +113,10 @@ html {
 /* FOOTER STYLES */
 footer {
   background-color: #e59409;
-  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.social-links li {
+  display: inline;
 }

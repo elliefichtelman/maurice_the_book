@@ -32,6 +32,7 @@ html {
 }
 .hero p {
   font-size: 1.25rem;
+  margin-top: 20px;
 }
 
 /* SAMPLE STYLES */
@@ -65,11 +66,16 @@ html {
 .reviews h3 {
   font-size: 1.5rem;
 }
-.reviews p {
+.reviews q {
   font-style: italic;
 }
 
 /* AUTHOR STYLES */
+.author {
+  background-color: #39ba28;
+}
 .author img {
   border-radius: 50%;
 }
+
+/* FOOTER STYLES */

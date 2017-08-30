@@ -78,4 +78,15 @@ html {
   border-radius: 50%;
 }
 
+/* BUY NOW STYLES */
+.buy-now {
+  background-color: #6728ba;
+  padding: 30px 0;
+  text-align: center;
+}
+
 /* FOOTER STYLES */
+footer {
+  background-color: #e59409;
+  padding: 30px 0;
+}

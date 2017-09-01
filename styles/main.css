@@ -6,36 +6,48 @@ html {
 ol, ul {
   list-style: none;
 }
+q::before {
+  content: '"';
+  margin-right: -3px;
+}
+q::after {
+  content: '"';
+  margin-left: -3px;
+}
+.hero, .sample, .reviews, .author, .buy-now {
+  border-bottom: solid 1px #000;
+}
 
 /* HERO STYLES */
 .hero {
   background-color: #e5f442;
   display: block;
-  padding: 50px 0;
+  padding: 20px;
   text-align: center;
 }
 .hero h1 {
   font-size: 3rem;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 .hero h2 {
   font-size: 2rem;
   font-style: italic;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
-.hero h3 {
+.hero h3, .hero h4 {
   font-weight: lighter;
   font-size: 1.5rem;
+  margin-bottom: 12px;
 }
 .hero img {
+  border: solid 1px #000;
   border-radius: 5px;
   height: 250px;
-  margin: 20px 0;
+  margin-bottom: 12px;
   width: 350px;
 }
 .hero p {
   font-size: 1.25rem;
-  margin-top: 20px;
 }
 
 /* SAMPLE STYLES */
@@ -51,14 +63,19 @@ ol, ul {
   text-align: center;
 }
 .sample img {
+  border: solid 1px #000;
   border-radius: 5px;
   height: 250px;
   width: 350px;
 }
+.sample p {
+  line-height: 1.25;
+}
 .sample ul {
+  line-height: 1.25;
   list-style: disc;
   list-style-position: inside;
-  margin-top: 20px;
+  margin-top: 12px;
 }
 
 /* REVIEWS STYLES */
@@ -69,53 +86,78 @@ ol, ul {
   text-align: center;
 }
 .reviews article {
-  margin-bottom: 20px;
+  margin-top: 12px;
   text-align: left;
+}
+.reviews button {
+  margin-top: 12px;
 }
 .reviews h1 {
   font-size: 2rem;
 }
-.reviews h3 {
+.reviews h2 {
   font-size: 1.5rem;
+  margin-bottom: 12px;
 }
 .reviews q {
   font-style: italic;
+  line-height: 1.25;
 }
 
 /* AUTHOR STYLES */
 .author {
+  align-items: center;
   background-color: #39ba28;
   display: flex;
   flex-direction: row;
-  padding: 60px;
+  padding: 20px;
+}
+.author > div {
+  flex: 1;
+  text-align: center;
 }
 .author h1 {
   font-size: 2rem;
-  margin-bottom: 10px;
-  text-align: center;
+  margin-bottom: 12px;
 }
 .author img {
+  border: solid 1px #000;
   border-radius: 50%;
-  margin-right: 20px;
 }
 .author p {
-  margin-bottom: 10px;
-  text-align: left;
+  line-height: 1.25;
+  margin-bottom: 12px;
+}
+.author q {
+  line-height: 1.25;
+  font-style: italic;
 }
 
 /* BUY NOW STYLES */
 .buy-now {
   background-color: #6728ba;
-  padding: 30px 0;
+  padding: 20px;
   text-align: center;
 }
 
 /* FOOTER STYLES */
 footer {
+  align-items: center;
   background-color: #e59409;
   display: flex;
-  justify-content: space-between;
   padding: 20px;
+}
+footer div {
+  flex: 1;
+  text-align: center;
+}
+footer p a {
+  color: #000;
+  text-decoration: none;
+}
+footer p a:hover {
+  color: #fff;
+  text-decoration: underline;
 }
 .social-links li {
   display: inline;

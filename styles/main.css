@@ -22,12 +22,12 @@ q::after {
   height: 250px;
   width: 350px;
 }
-.hero, .reviews, .buy-now {
+.hero, .reviews {
   background-color: #5f6f8a;
   color: #fff;
 }
 .sample, .author, footer {
-  background-color: #fe7968;
+  background-color: #f6dfa9;
 }
 .hero, .sample, .reviews, .author, .buy-now {
   border-bottom: solid 1px #000;
@@ -132,6 +132,7 @@ q::after {
 
 /* BUY NOW STYLES */
 .buy-now {
+  background-color: #e33d3d;
   text-align: center;
 }
 
@@ -149,14 +150,14 @@ footer p a {
   text-decoration: none;
 }
 footer p a:hover {
-  color: #fff;
+  color: #e33d3d;
   text-decoration: underline;
 }
 .social-links i {
-  color: #000;
+  color: #5f6f8a;
 }
 .social-links i:hover {
-  color: #fff;
+  color: #e33d3d;
 }
 .social-links li {
   display: inline;

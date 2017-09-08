@@ -1,0 +1,33 @@
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+body {
+  background-color: #5f6f8a;
+  color: #f6dfa9;
+  display: block;
+  padding: 8%;
+  text-align: center;
+}
+h1, p, .book-illustration {
+  margin-bottom: 40px;
+}
+a {
+  display: block;
+}
+h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+p {
+  font-size: 1rem;
+}
+cite {
+  font-style: italic;
+}
+.book-illustration {
+  border: solid 1px #000;
+  border-radius: 5px;
+  height: 250px;
+  width: 350px;
+}

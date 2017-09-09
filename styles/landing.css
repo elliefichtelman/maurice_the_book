@@ -12,9 +12,6 @@ body {
 h1, p, .book-illustration {
   margin-bottom: 40px;
 }
-a {
-  display: block;
-}
 h1 {
   font-size: 5rem;
   text-transform: uppercase;
@@ -30,4 +27,17 @@ cite {
   border-radius: 5px;
   height: 250px;
   width: 350px;
+}
+.buy-button {
+  background-color: #f4c153;
+  border: solid 1px #000;
+  border-radius: 5px;
+  color: #000;
+  display:inline-block;
+  padding: 10px;
+  text-decoration: none;
+}
+.buy-button i {
+  color: #000;
+  margin-right: 5px;
 }

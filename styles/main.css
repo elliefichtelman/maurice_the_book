@@ -1,5 +1,6 @@
 /* GLOBAL STYLES */
 html {
+  color: #333;
   font-family: sans-serif;
   font-size: 16px;
 }
@@ -133,6 +134,7 @@ q::after {
 
 /* BUY NOW STYLES */
 .buy-now {
+  background: linear-gradient(180deg, #e33d3d, #970000);
   background-color: #e33d3d;
   text-align: center;
 }
@@ -159,7 +161,7 @@ footer div {
   text-align: center;
 }
 footer p a {
-  color: #000;
+  color: #333;
   text-decoration: none;
 }
 footer p a:hover {

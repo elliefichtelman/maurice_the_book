@@ -131,6 +131,12 @@ q::after {
   line-height: 1.25;
   font-style: italic;
 }
+.author i {
+  color: #5f6f8a;
+}
+.author i:hover {
+  color: #e33d3d;
+}
 
 /* BUY NOW STYLES */
 .buy-now {

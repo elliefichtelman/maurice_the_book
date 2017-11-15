@@ -122,6 +122,8 @@ q::after {
 .author img {
   border: solid 1px #000;
   border-radius: 50%;
+  height: 239px;
+  width: 240px;
 }
 .author p {
   line-height: 1.25;
@@ -200,5 +202,23 @@ footer p a:hover {
   }
   .author > div:not(:last-child){
     margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  .book-illustration {
+    height: 187.5px;
+    width: 262.5px;
+  }
+  .author img {
+    height: 179.25px;
+    width: 180px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+  footer p {
+    padding: 5px 0;
   }
 }

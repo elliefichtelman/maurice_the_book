@@ -1,7 +1,13 @@
+/* TYPOGRAPHY */
+@font-face {
+  font-family: 'Indie Flower';
+  src: url('../fonts/Indie_Flower/IndieFlower.ttf') format('truetype');
+}
+
 /* GLOBAL STYLES */
 html {
   color: #333;
-  font-family: sans-serif;
+  font-family: 'Source Serif Pro';
   font-size: 16px;
 }
 ol, ul {
@@ -23,7 +29,7 @@ q::after {
   height: 250px;
   width: 350px;
 }
-.hero, .reviews {
+.hero, .reviews, .map {
   background-color: #5f6f8a;
   color: #fff;
 }
@@ -35,6 +41,9 @@ q::after {
 }
 .hero, .sample, .reviews, .author, .buy-now, footer {
   padding: 40px 5%;
+}
+.hero h1, .hero h2, .lead-paragraph, .reviews h1, .author h1, .map h1 {
+  font-family: 'Indie Flower';
 }
 
 /* HERO STYLES */
@@ -48,7 +57,6 @@ q::after {
 }
 .hero h2 {
   font-size: 2rem;
-  font-style: italic;
   margin-bottom: 12px;
 }
 .hero h3 {
@@ -86,22 +94,22 @@ q::after {
   text-align: center;
 }
 .reviews article {
-  margin-top: 12px;
+  margin: 25px 0;
   text-align: left;
+  padding: 0 140px;
 }
 .reviews h1 {
   font-size: 2rem;
 }
-.reviews h2 {
-  font-size: 1.5rem;
-  margin-bottom: 12px;
+.reviews p {
+  font-style: italic;
+  margin-top: 6px;
 }
 .reviews .buy-button {
   display: inline-block;
   margin-top: 12px;
 }
 .reviews q {
-  font-style: italic;
   line-height: 1.25;
 }
 
@@ -158,6 +166,29 @@ q::after {
 .buy-button i {
   color: #000;
   margin-right: 5px;
+}
+
+/* MAP STYLES */
+.map {
+  text-align: center;
+}
+.map h1 {
+ font-size: 2rem;
+ /* needs to be padding as opposed to margin because of the map hack */
+ padding-top: 40px;
+}
+iframe {
+  height: 100%;
+  position: relative;
+  top: -46px;
+  width: 100%;
+}
+.iframe {
+  display: inline-block;
+  height: 340px;
+  margin: 40px;
+  overflow: hidden;
+  width: 420px;
 }
 
 /* FOOTER STYLES */

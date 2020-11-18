@@ -29,7 +29,7 @@ q::after {
   height: 250px;
   width: 350px;
 }
-.hero, .reviews, .map {
+.hero, .reviews, .media {
   background-color: #5f6f8a;
   color: #fff;
 }
@@ -42,7 +42,7 @@ q::after {
 .hero, .sample, .reviews, .author, .buy-now, footer {
   padding: 40px 5%;
 }
-.hero h1, .hero h2, .lead-paragraph, .reviews h1, .author h1, .map h1 {
+.hero h1, .hero h2, .lead-paragraph, .reviews h1, .author h1, .media h1 {
   font-family: 'Indie Flower';
 }
 
@@ -136,6 +136,7 @@ q::after {
 .author p {
   line-height: 1.25;
   margin-bottom: 12px;
+  margin-top: 12px;
 }
 .author q {
   line-height: 1.25;
@@ -168,27 +169,18 @@ q::after {
   margin-right: 5px;
 }
 
-/* MAP STYLES */
-.map {
+/* MEDIA STYLES */
+.media {
   text-align: center;
 }
-.map h1 {
+.media h1 {
  font-size: 2rem;
  /* needs to be padding as opposed to margin because of the map hack */
  padding-top: 40px;
 }
-iframe {
-  height: 100%;
-  position: relative;
-  top: -46px;
-  width: 100%;
-}
-.iframe {
+.media-container {
   display: inline-block;
-  height: 340px;
   margin: 40px;
-  overflow: hidden;
-  width: 420px;
 }
 
 /* FOOTER STYLES */

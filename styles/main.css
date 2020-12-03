@@ -26,7 +26,6 @@ q::after {
 .book-illustration {
   border: solid 1px #000;
   border-radius: 5px;
-  height: 250px;
   width: 350px;
 }
 .hero, .reviews, .media {
